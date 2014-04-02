@@ -16,6 +16,8 @@ buildscript {
     }
 }
 
+apply plugin: 'clirr'
+
 clirr {
     ignoreFailures = true
     ignoredDifferenceTypes 10000
